@@ -1,9 +1,21 @@
+@font-face {
+    font-family: vazir;
+    src: url("fonts/Vazir.eot") format("eot");
+    
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: vazir;
+    font-weight: 600;
+    list-style: none;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .css-search{
     background-color: #D73948;
 }
@@ -15,4 +27,3 @@
     width: 50px;
     height: 50px;
 }
-
